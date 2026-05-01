@@ -1,0 +1,348 @@
+{% extends 'base.html' %}
+{% block title %}Size Guide — ManVault{% endblock %}
+{% block content %}
+<div class="container py-4">
+  <h1 class="section-title mb-4">📏 Size Guide</h1>
+  <p class="mb-4" style="color:var(--tx2);font-size:15px;max-width:600px">Find your perfect fit with our comprehensive size guide. All measurements are in inches and may vary slightly by product.</p>
+
+  <!-- Size Chart Tabs -->
+  <div class="mb-4">
+    <nav>
+      <div class="nav nav-tabs" id="sizeTabs" role="tablist">
+        <button class="nav-link active" id="shirts-tab" data-bs-toggle="tab" data-bs-target="#shirts" type="button" role="tab">👔 Shirts</button>
+        <button class="nav-link" id="pants-tab" data-bs-toggle="tab" data-bs-target="#pants" type="button" role="tab">👖 Pants</button>
+        <button class="nav-link" id="jackets-tab" data-bs-toggle="tab" data-bs-target="#jackets" type="button" role="tab">🧥 Jackets</button>
+        <button class="nav-link" id="shoes-tab" data-bs-toggle="tab" data-bs-target="#shoes" type="button" role="tab">👟 Shoes</button>
+      </div>
+    </nav>
+    <div class="tab-content mt-4" id="sizeTabsContent">
+      <!-- Shirts -->
+      <div class="tab-pane fade show active" id="shirts" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="mb-3">Shirt Measurements</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead class="table-light">
+                  <tr><th>Size</th><th>Chest</th><th>Shoulder</th><th>Sleeve</th><th>Length</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>S</td><td>36-38</td><td>16.5</td><td>24</td><td>27</td></tr>
+                  <tr><td>M</td><td>38-40</td><td>17.5</td><td>24.5</td><td>28</td></tr>
+                  <tr><td>L</td><td>40-42</td><td>18.5</td><td>25</td><td>29</td></tr>
+                  <tr><td>XL</td><td>42-44</td><td>19.5</td><td>25.5</td><td>30</td></tr>
+                  <tr><td>XXL</td><td>44-46</td><td>20.5</td><td>26</td><td>31</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="mb-3">How to Measure</h4>
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Chest</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure around the fullest part of your chest</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📐</div>
+                  <h6>Shoulder</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure from shoulder seam to shoulder seam</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Sleeve</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure from shoulder to wrist</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Length</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure from collar to hem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pants -->
+      <div class="tab-pane fade" id="pants" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="mb-3">Pants Measurements</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead class="table-light">
+                  <tr><th>Size</th><th>Waist</th><th>Hip</th><th>Inseam</th><th>Outseam</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>28</td><td>28-29</td><td>34-35</td><td>32</td><td>42</td></tr>
+                  <tr><td>30</td><td>30-31</td><td>36-37</td><td>32</td><td>42</td></tr>
+                  <tr><td>32</td><td>32-33</td><td>38-39</td><td>32</td><td>42</td></tr>
+                  <tr><td>34</td><td>34-35</td><td>40-41</td><td>32</td><td>42</td></tr>
+                  <tr><td>36</td><td>36-37</td><td>42-43</td><td>32</td><td>42</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="mb-3">How to Measure</h4>
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Waist</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure around your natural waistline</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📐</div>
+                  <h6>Hip</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure around the fullest part of your hips</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Inseam</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure from crotch to ankle</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div style="font-size:48px;margin-bottom:10px">📏</div>
+                  <h6>Outseam</h6>
+                  <p style="font-size:12px;color:var(--tx3)">Measure from waist to ankle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jackets -->
+      <div class="tab-pane fade" id="jackets" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="mb-3">Jacket Measurements</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead class="table-light">
+                  <tr><th>Size</th><th>Chest</th><th>Shoulder</th><th>Sleeve</th><th>Length</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>S</td><td>36-38</td><td>17</td><td>25</td><td>28</td></tr>
+                  <tr><td>M</td><td>38-40</td><td>18</td><td>25.5</td><td>29</td></tr>
+                  <tr><td>L</td><td>40-42</td><td>19</td><td>26</td><td>30</td></tr>
+                  <tr><td>XL</td><td>42-44</td><td>20</td><td>26.5</td><td>31</td></tr>
+                  <tr><td>XXL</td><td>44-46</td><td>21</td><td>27</td><td>32</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="alert alert-info">
+              <h5>💡 Size Tips for Jackets</h5>
+              <ul class="mb-0">
+                <li>Jackets should allow for layering underneath</li>
+                <li>Measure over your thickest sweater for winter jackets</li>
+                <li>Consider your posture - jackets fit differently when worn</li>
+                <li>When in doubt, size up for comfort</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shoes -->
+      <div class="tab-pane fade" id="shoes" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="mb-3">Shoe Size Conversion</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead class="table-light">
+                  <tr><th>US Size</th><th>UK Size</th><th>EU Size</th><th>Foot Length (inches)</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>7</td><td>6</td><td>40</td><td>9.6</td></tr>
+                  <tr><td>8</td><td>7</td><td>41</td><td>9.9</td></tr>
+                  <tr><td>9</td><td>8</td><td>42</td><td>10.2</td></tr>
+                  <tr><td>10</td><td>9</td><td>43</td><td>10.6</td></tr>
+                  <tr><td>11</td><td>10</td><td>44</td><td>10.9</td></tr>
+                  <tr><td>12</td><td>11</td><td>45</td><td>11.2</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h4 class="mb-3">How to Measure Your Foot</h4>
+            <ol style="font-size:14px;color:var(--tx2)">
+              <li class="mb-2">Stand on a piece of paper with your heel against the wall</li>
+              <li class="mb-2">Mark the longest toe and measure from heel to toe</li>
+              <li class="mb-2">Measure both feet - use the larger measurement</li>
+              <li class="mb-2">Add 0.2-0.4 inches for comfort in closed shoes</li>
+              <li>Measure at the end of the day when feet are largest</li>
+            </ol>
+            <div class="alert alert-warning mt-3">
+              <strong>Note:</strong> Shoe sizes may vary by brand. Check product descriptions for specific sizing.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Size Calculator -->
+  <div class="mv-card p-4 mb-4">
+    <h3 class="mb-3">🧮 Size Calculator</h3>
+    <p class="mb-4" style="color:var(--tx2)">Get personalized size recommendations based on your measurements</p>
+    <div class="row g-3">
+      <div class="col-md-3">
+        <label class="form-label">Chest (inches)</label>
+        <input type="number" class="mv-input" id="calc-chest" placeholder="36-40">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Waist (inches)</label>
+        <input type="number" class="mv-input" id="calc-waist" placeholder="28-32">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Height (inches)</label>
+        <input type="number" class="mv-input" id="calc-height" placeholder="68-72">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Weight (lbs)</label>
+        <input type="number" class="mv-input" id="calc-weight" placeholder="150-180">
+      </div>
+    </div>
+    <button class="mv-btn mt-3" onclick="calculateSize()">Calculate My Size</button>
+    <div id="size-result" class="mt-3" style="display:none">
+      <div class="alert alert-success">
+        <h5>Recommended Size: <span id="recommended-size"></span></h5>
+        <p id="size-explanation"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="mv-card p-4">
+    <h3 class="mb-3">❓ Frequently Asked Questions</h3>
+    <div class="accordion" id="sizeFAQ">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            How do I know if a size will fit me?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#sizeFAQ">
+          <div class="accordion-body">
+            Compare your measurements with our size charts. If you're between sizes, we recommend sizing up for comfort. Check product reviews for real customer feedback on fit.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+            What if I order the wrong size?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#sizeFAQ">
+          <div class="accordion-body">
+            We offer free returns within 30 days. Simply use our prepaid return label to send back unworn items in original packaging.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+            Do your sizes run true to size?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#sizeFAQ">
+          <div class="accordion-body">
+            Our sizes are designed to be true to size. However, fit can vary by style and personal preference. We recommend checking the product description for specific fit notes.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calculateSize() {
+  const chest = parseFloat(document.getElementById('calc-chest').value);
+  const waist = parseFloat(document.getElementById('calc-waist').value);
+  const height = parseFloat(document.getElementById('calc-height').value);
+  const weight = parseFloat(document.getElementById('calc-weight').value);
+
+  if (!chest || !waist || !height || !weight) {
+    alert('Please fill in all measurements');
+    return;
+  }
+
+  let size = 'M'; // default
+  let explanation = '';
+
+  if (chest <= 38 && waist <= 30) {
+    size = 'S';
+    explanation = 'Based on your measurements, we recommend Small size for a comfortable fit.';
+  } else if (chest <= 42 && waist <= 34) {
+    size = 'M';
+    explanation = 'Based on your measurements, we recommend Medium size for a comfortable fit.';
+  } else if (chest <= 46 && waist <= 38) {
+    size = 'L';
+    explanation = 'Based on your measurements, we recommend Large size for a comfortable fit.';
+  } else if (chest <= 50 && waist <= 42) {
+    size = 'XL';
+    explanation = 'Based on your measurements, we recommend XL size for a comfortable fit.';
+  } else {
+    size = 'XXL';
+    explanation = 'Based on your measurements, we recommend XXL size for a comfortable fit.';
+  }
+
+  document.getElementById('recommended-size').textContent = size;
+  document.getElementById('size-explanation').textContent = explanation;
+  document.getElementById('size-result').style.display = 'block';
+}
+</script>
+
+<style>
+.nav-tabs .nav-link {
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--tx3);
+  font-weight: 600;
+}
+.nav-tabs .nav-link.active {
+  border-bottom-color: var(--acc);
+  color: var(--acc);
+  background: none;
+}
+.table th {
+  background: var(--bg3);
+  border-color: var(--brd);
+  font-weight: 700;
+  font-size: 13px;
+}
+.table td {
+  border-color: var(--brd);
+  font-size: 13px;
+}
+.accordion-button {
+  font-weight: 600;
+  color: var(--tx);
+}
+.accordion-button:not(.collapsed) {
+  color: var(--acc);
+  background: rgba(200, 255, 0, 0.05);
+}
+</style>
+{% endblock %}
